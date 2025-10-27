@@ -1,0 +1,8 @@
+.app-section { display: none; }
+.app-section.active { display: block; }
+
+.nav-btn { display: flex; flex-direction: column; align-items: center; font-size: 12px; transition: all 0.2s; }
+.nav-btn.active i, .nav-btn.active p { color: #00ffff; }
+
+.ctrl-btn { background-color: #444; padding: 12px; border-radius: 6px; font-size: 18px; transition: 0.2s; }
+.ctrl-btn:hover { background-color: #666; }
